@@ -10,7 +10,7 @@
   "license": "Apache-2.0",
   "node-red": {
     "nodes": {
-      "telstra-messaging-api": "telstra-messaging-api.js"
+      "telstra-messaging-api": "telstra-messaging-api/telstra-messaging-api.js"
     }
   },
   "dependencies": {
