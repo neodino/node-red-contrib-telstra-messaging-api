@@ -20,7 +20,7 @@
 
 const fetch = require('node-fetch');
 
-const TOKEN_URL = "https://sapi.telstra.com/v1/oauth/token" +
+const TOKEN_URL = "https://tapi.telstra.com/v2/oauth/token" +
   "?grant_type=client_credentials" +
   "&scope=NSMS";
 
