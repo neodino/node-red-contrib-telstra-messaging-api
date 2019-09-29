@@ -70,7 +70,7 @@ module.exports = function (RED) {
   function sendSMS(mobilenumber, message, authorization, node, msg) {
        node.status({fill: 'green', shape: 'dot', text: " "});
        var options2 = {
-          url: 'https://tapi.telstra.com/v2/sms/messages',
+		  url: 'https://tapi.telstra.com/v2/messages/sms',
           method: 'POST',
           headers: {
             Authorization: authorization  
