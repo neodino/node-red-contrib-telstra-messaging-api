@@ -8,12 +8,14 @@
   },
   "author": "Aleksandar Nikolikj",
   "license": "Apache-2.0",
+  "keywords": [ "node-red,telstra" ],
+
   "node-red": {
     "nodes": {
       "telstra-messaging-api": "telstra-messaging-api/telstra-messaging-api.js"
     }
   },
   "dependencies": {
-    "@neodino/telstra_messaging": "^1.0.6"
+    "request-promise": "^4.2.4"
   }
 }
