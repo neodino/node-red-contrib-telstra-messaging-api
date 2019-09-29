@@ -14,7 +14,6 @@
     }
   },
   "dependencies": {
-    "@neodino/telstra_messaging": "^1.0.6",
-    "node-red-contrib-telstra": "github:brendan-myers/node-red-contrib-telstra-messaging"
+    "@neodino/telstra_messaging": "^1.0.6"
   }
 }
