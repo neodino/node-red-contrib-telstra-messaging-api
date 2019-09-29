@@ -46,7 +46,7 @@ module.exports = function (RED) {
 
         setTimeout(function() {
           node.status({});
-          msg.payload = "telstra-messaging-api: Success";
+          msg.payload = "telstra-messaging-api: Success" + authorization ;
           node.send(msg);
         }, 5000);
       }).catch(errors.StatusCodeError, function(reason) {
