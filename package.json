@@ -8,7 +8,7 @@
   },
   "author": "Aleksandar Nikolikj",
   "license": "MIT",
-  "keywords": [ "node-red,telstra" ],
+  "keywords": [ "node-red, telstra, sms" ],
 
   "node-red": {
     "nodes": {
