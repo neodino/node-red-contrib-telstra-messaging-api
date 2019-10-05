@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-telstra-messaging-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Node-RED node for Telstra Messaging API - Currently supporting only sending SMS Messages. Requires pre provisioning done. Check API on https://dev.telstra.com",
   "main": "index.js",
   "scripts": {

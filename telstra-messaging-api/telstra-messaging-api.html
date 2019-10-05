@@ -3,6 +3,7 @@
 	  category: "telstra",
 	  color: "#E2D96E",
 	  defaults: {
+       name: {value:""},
 	   consumerkey: {value: ""},
 	   consumersecret: {value: ""},
 	   mobile: {value: ""},
@@ -18,6 +19,10 @@
   </script>
   
   <script type="text/x-red" data-template-name="telstra-messaging-api">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
 	<div class="form-row">
 	 <label for="node-input-consumerkey">Consumer Key</label>
 	 <input type="text" id="node-input-consumerkey" placeholder="" />
@@ -35,3 +40,7 @@
 	 <input type="text" id="node-input-message" placeholder="If blank, comes from msg.payload " />
 	</div>
   </script>
+  <script type="text/x-red" data-help-name="node-type">
+	<p>Sends SMS over api. </p>
+	<p>Make sure that you create subscription(https://dev.telstra.com/content/messaging-api#tag/Provisioning)</p>
+ </script>
